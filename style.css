@@ -1,4 +1,6 @@
+
 body{
+   
     padding-top: 0%;
     margin-top: 0px;
     font-family: 'josefin sans',sans-serif;
@@ -14,13 +16,13 @@ body{
 
 }
 .full-width{
-     margin: 0% 22%;
+     margin: 0% 20%;
      padding-bottom: 50px;
     align-items: center;
     text-align:center;
     color:white;
 }
-   donate-button{
+   .donate-button{
        background-color: orange;
        text-decoration: none;
        padding: 17px 42px;
@@ -28,7 +30,7 @@ body{
        color:white;
        background-image:linear-gradient(orange tomato);
        border-radius 14px;
-       font-size: 24px;
+       font-size: 26px;
 
 }
 .top-button{
@@ -38,6 +40,8 @@ body{
 }
 h1{
     font-size: 45px;
+    
+    
 
 }
 h2{
@@ -47,7 +51,7 @@ h2{
       display: flex;
       justify-content:center ;
       color:brown;
-      font-size: 22px;
+      font-size: 24px;
       font-weight: 700;
       width:100%
 }
@@ -69,21 +73,12 @@ h2{
     margin: 3%;
     padding: 3%;
     box-shadow:10px 5px 5px;
-    box-shadow:10px 5px 5px lightslategray;
+    box-shadow:10px 5px 5px rgb(10, 100, 116);
   }
-  #box-color1{
-    background: color #f2f2f2;
-
-  }
-  #box-color2{
-    background-color: blue;
-  }
-  #box-color3{
-    background-color: blueviolet;
-
+  
   }
   .donate-plan p{
-    width:120%;
+    width:110%;
     text-align: center;
   }
   .donate-plan-text{
@@ -97,13 +92,13 @@ h2{
   .donate h1{
     font-size: 45px;
     text-align: center;
-    color:rgb(0, 0, 0,)
-    padding-top:120px;
+    color:red;
+    padding-top:110px;
 
 
   }
   .donate p{
-    font-size: 22px;
+    font-size: 24px;
     text-align: center;
     color:rgb(120,120,120)
   }
@@ -119,12 +114,12 @@ h2{
     text-aling:center;
     text-decoration:none;
     display:inline-block;
-    font-size:28px;
+    font-size:34px;
     margin:8px 8px;
     transition-duration:0.4s;
     cursor:pointer;
     width:160px;
-    height;120px;
+    height:120px;
     border-radius:6px;
   }
   .amount-button:hover{
@@ -160,16 +155,16 @@ h2{
     font-size: 26px;
   }
   .flexible-container{
-    display:flex;
-    margin-bottom: 100px;
-    margin-top: 100px;
+       display:flex;
+       margin-bottom: 100px;
+       margin-top: 100px;
   }
   .context1{
-    width: 38px;
-    margin-top: 0%;
-    margin-left: 300px;
-    align-items:center ;
-    padding-bottom: 70px;
+      width: 38px;
+       margin-top: 0%;
+        margin-left: 300px;
+       align-items:center ;
+      padding-bottom: 64px;
 
   }
   .context2{
@@ -177,53 +172,53 @@ h2{
       margin-top: 0%;
       margin-right: 300px;
       align-items: center;
-      padding-bottom: 70px;
+      padding-bottom: 64px;
   }
   .half-width{
-    width: 50%;
-    margin-top: 5%;
-    margin: 0% 5%;
-    padding: 0% 2%;
-    align-items: center;
+        width: 50%;
+        margin-top: 5%;
+          margin: 0% 5%;
+        padding: 0% 2%;
+         align-items: center;
   }
   .half-width img {
     width: 100%;
     height: 400px;
-    border-radius: 38px;
-}
+    border-radius: 34px;
+ }
   .link-button {
      text-decoration: none;
      background-color: orange;
      padding: 10px 40px;
      border-radius: 5px;
-    font-weight: 700;
-     background-image: linear-gradient(orange, tomato);
-     color: white
-}
-footer {
-  background-color: rgb(9, 9, 9);
-  margin: 0px;
-  padding-top: 5px;
-  height: 200px;
-  color: bisque;
-  text-align: center;
- } 
- .style-txt h2 {
-  color: rgb(26,0, 26);
-  font-family: 'Arima', cursive;
-  font-family: 'Josefin Sans', sans-serif;
-  font-family: 'Kaushan Script', cursive;
-  font-family: 'Poppins', sans-serif;
-  font-family: 'yellowtail', cursive;
+       font-weight: 700;
+       background-image: linear-gradient(orange, tomato);
+        color: white
+  }
+  footer {
+     background-color: rgb(9, 9, 9);
+      margin: 0px;
+      padding-top: 5px;
+      height: 200px;
+      color: bisque;
+       text-align: center;
+  } 
+  .style-txt h2 {
+       color: rgb(26,0, 26);
+       font-family: 'Arima', cursive;
+      font-family: 'Josefin Sans', sans-serif;
+       font-family: 'Kaushan Script', cursive;
+       font-family: 'Poppins', sans-serif;
+     font-family: 'yellowtail', cursive;
 
 }
     
-.newspeper-email {
-  width: 85%;
-  margin: 120px 140px 100px 140px;
-  height: 200px;
-  justify-content: center;
-  background-color: orangered;
+    .newspeper-email {
+        width: 85%;
+        margin: 120px 140px 100px 140px;
+         height: 200px;
+        justify-content: center;
+      background-color: orangered;
 
 }
 .email-container {
